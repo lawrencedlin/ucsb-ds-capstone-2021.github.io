@@ -429,8 +429,8 @@
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#database-management-in-redcap">
-   Database Management in REDCap
+  <a class="reference internal nav-link" href="#database-management-redcap">
+   Database Management (REDCap)
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -496,7 +496,9 @@
 </li>
 <li><p>Database Management</p>
 <ul>
-<li><p>Using REDCap cloud to store and manage research data</p></li>
+<li><p>Using REDCap (Research Electronic Data Capture tool) cloud to store and manage research data</p></li>
+<li><p>REDCap Cloud is a web-based software that is highly customizable so researchers can design a database or survey to meet each study’s needs.</p></li>
+<li><p>REDCap Cloud is HIPAA compliant and provides ready-to-use templates for various study designs.</p></li>
 </ul>
 </li>
 </ul>
@@ -518,46 +520,28 @@
 <p>We projected the biological data into three-dimensions and plotted the results by HbA1c class to see if we could identify any patterns in the data. There were no clear patterns in this 3D plot.</p>
 <!-- #region id="NESXWU68antR" -->
 </div>
-<div class="section" id="database-management-in-redcap">
-<h2>Database Management in REDCap<a class="headerlink" href="#database-management-in-redcap" title="Permalink to this headline">¶</a></h2>
-<ol class="simple">
-<li><p>Enrolling and Data Capture:</p></li>
-</ol>
+<div class="section" id="database-management-redcap">
+<h2>Database Management (REDCap)<a class="headerlink" href="#database-management-redcap" title="Permalink to this headline">¶</a></h2>
+<p>Enrolling and Data Capture:</p>
 <ul class="simple">
 <li><p>Screening IDs are automatically generated on enrollment</p></li>
 <li><p>Subject IDs assigned to a patient/subject are their unique identifier during a Study</p></li>
 <li><p>“Confirm enrollment” (if enabled in Parameters), enables a user to enroll a subject even if they do not qualify based on their screening results</p></li>
-<li><p>All Subjects don’t need to be screened for eligibility prior to enrollment but can be</p></li>
-</ul>
-<ol class="simple">
-<li><p>Data Export, Reporting, Audit Logs:</p></li>
-</ol>
-<ul class="simple">
+<li><p>All Subjects don’t need to be screened for eligibility prior to enrollment but can be
+Data Export, Reporting, Audit Logs:</p></li>
 <li><p>The Send It module can be used to send large (up to 500MB) and/or sensitive files to one or more recipients in a HIPAA compliant manner</p></li>
-<li><p>After clicking submit report in “Report Wizard”, the report can be exported into either CSV or Excel</p></li>
-</ul>
-<ol class="simple">
-<li><p>Intermediate Reporting:</p></li>
-</ol>
-<ul class="simple">
+<li><p>After clicking submit report in “Report Wizard”, the report can be exported into either CSV or Excel
+Intermediate Reporting:</p></li>
 <li><p>In Report Wizard, a user can save a report as a Shared Report for access to other Users</p></li>
 <li><p>A user can configure their reports by selecting fields to include in their report from the drop-down of instruments</p></li>
-<li><p>When searching for a specific report, a user can either use the search bar or click “filter” and use: is, is not, starts with, contains, is empty, or is not empty</p></li>
-</ul>
-<ol class="simple">
-<li><p>Surveys:</p></li>
-</ol>
-<ul class="simple">
+<li><p>When searching for a specific report, a user can either use the search bar or click “filter” and use: is, is not, starts with, contains, is empty, or is not empty
+Surveys:</p></li>
 <li><p>Surveys (if enabled) will allow for an alternative data capture medium for the Study Team by enabling data capture direct from Subjects via a Survey URL</p></li>
 <li><p>There are four ways a Survey can be launched, and an email generated to (Study enrolled) Survey participants with a URL to access it</p></li>
 <li><p>Survey Queue displays a list of ALL surveys in the Study on a single person</p></li>
 <li><p>Surveys can be set to appear in the Survey Queue based upon if the participant has completed a particular survey and/or if certain conditions are met (based upon data values)</p></li>
-<li><p>Public Surveys can be used for the general public for teaching purposes, such as Health Fairs, Company Parties, or School Lectures, where the study team could make a laptop(s) available for attendees to enter data anonymously</p></li>
-</ul>
-<ol class="simple">
-<li><p>Monitoring:</p></li>
-</ol>
-<ul class="simple">
+<li><p>Public Surveys can be used for the general public for teaching purposes, such as Health Fairs, Company Parties, or School Lectures, where the study team could make a laptop(s) available for attendees to enter data anonymously
+Monitoring:</p></li>
 <li><p>Monitoring consists of 3 separate components which are:</p>
 <ul>
 <li><p>Source Data Verification – CRF(Case report form) or fields within the CRF which require verification to source documents by the field/site monitor.</p></li>
@@ -565,12 +549,8 @@
 <li><p>Data Review - CRF or field data which require review by a data manager.</p></li>
 </ul>
 </li>
-<li><p>An Event cannot be closed out if monitoring has not been completed on any of the ‘Required’ CRFs that requiring monitoring</p></li>
-</ul>
-<ol class="simple">
-<li><p>E-signature process:</p></li>
-</ol>
-<ul class="simple">
+<li><p>An Event cannot be closed out if monitoring has not been completed on any of the ‘Required’ CRFs that requiring monitoring
+E-signature process:</p></li>
 <li><p>The icon for eSignature will show up next to the form; as well as, the Event level, as long as the role for the user has been enabled</p></li>
 <li><p>When the forms have been completed, the user with the ability to eSign, will click on the icon and enter their password</p></li>
 <li><p>eSignatures can be erased and “resigned” if necessary</p></li>
