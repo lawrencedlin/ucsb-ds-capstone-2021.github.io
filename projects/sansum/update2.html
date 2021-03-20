@@ -358,7 +358,10 @@
 
     <div class="dropdown-buttons">
         <!-- ipynb file if we had a myst markdown file -->
-        
+        <a class="dropdown-buttons"
+            href="../../_sources/projects/sansum/update2.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download notebook file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
         <!-- Download raw file -->
         <a class="dropdown-buttons" href="../../_sources/projects/sansum/update2.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
@@ -398,6 +401,23 @@
 
             <!-- Launch buttons -->
 
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/ucsb-ds-capstone-2021/ucsb-ds-capstone-2021.github.io/main?urlpath=tree/ucsb_ds_capstone_projects_2021/projects/sansum/update2.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="../../_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
         </div>
 
         <!-- Table of contents -->
@@ -411,12 +431,12 @@
             <ul class="nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#things-weve-done-since-last-progress-report">
-   Things we’ve done since last progress report
+   Things we’ve done since last progress report:
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#a-quick-refresher">
-   A quick refresher
+   A quick refresher:
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -426,7 +446,7 @@
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#exploratory-data-analysis">
-   Exploratory Data Analysis
+   Exploratory Data Analysis:
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -451,8 +471,7 @@
         
               <div>
                 
-  <!-- #region id="jrLNyrPWantJ" -->
-<div class="section" id="update-2">
+  <div class="section" id="update-2">
 <h1>Update 2<a class="headerlink" href="#update-2" title="Permalink to this headline">¶</a></h1>
 <p><img alt="" src="https://www.sansum.org/wp-content/uploads/2020/05/SDRI_logo_72.png" /></p>
 <p>Capstone members</p>
@@ -463,16 +482,14 @@
 <ul class="simple">
 <li><p>Alexander Franks, Jiajing Zheng, Dr. Namino Glantz, Dr. David Kerr</p></li>
 </ul>
-<!-- #endregion -->
-<!-- #region id="n9bxvcswantQ" -->
 <div class="section" id="things-weve-done-since-last-progress-report">
-<h2>Things we’ve done since last progress report<a class="headerlink" href="#things-weve-done-since-last-progress-report" title="Permalink to this headline">¶</a></h2>
+<h2>Things we’ve done since last progress report:<a class="headerlink" href="#things-weve-done-since-last-progress-report" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p>Scoring Qualitative Survey Answers</p>
 <ul>
 <li><p>Using the scoring rubric to assess scores for survery responses</p></li>
 <li><p>e.g. for the Social Needs survey, we would assess a score from all the responses that would tell us what the social needs of an individual</p></li>
-<li><p>Another example: Scoring how religious/ spiritual someone is based off of meaning, peace, and faith</p></li>
+<li><p>Another exmaple: Scoring how religious/ spiritual someone is based off of meaning, peace, and faith</p></li>
 </ul>
 </li>
 <li><p>Addressing missing data</p>
@@ -487,11 +504,10 @@
 </ul>
 </li>
 </ul>
-<!-- #endregion -->
 </div>
 <div class="section" id="a-quick-refresher">
-<h2>A quick refresher<a class="headerlink" href="#a-quick-refresher" title="Permalink to this headline">¶</a></h2>
-<p>Data</p>
+<h2>A quick refresher:<a class="headerlink" href="#a-quick-refresher" title="Permalink to this headline">¶</a></h2>
+<p>Data:</p>
 <ul class="simple">
 <li><p>Approximately 230 individuals</p></li>
 <li><p>Each individual participant contributes
@@ -509,8 +525,8 @@ psychology, behavior and societal/environmental influences</p></li>
 <li><p>Biological:</p>
 <ul>
 <li><p>HbA1c levels</p></li>
-<li><p>Vital signs</p></li>
-<li><p>Medical history</p></li>
+<li><p>vital signs</p></li>
+<li><p>medical history</p></li>
 </ul>
 </li>
 <li><p>Psychological:</p>
@@ -531,13 +547,13 @@ psychology, behavior and societal/environmental influences</p></li>
 </ul>
 </li>
 </ul>
-<p>Relevant Jargon</p>
+<p>Relevant Jargon:</p>
 <ul class="simple">
 <li><p>Type 2 Diabetes (T2D): Type 2 diabetes is an impairment in the way the body regulates and uses sugar (glucose) as a fuel. This long-term (chronic) condition results in too much sugar circulating in the bloodstream. Eventually, high blood sugar levels can lead to disorders of the circulatory, nervous and immune systems.</p></li>
 <li><p>HbA1c (Hemoglobin A1c): A minor component of hemoglobin (the protein in red blood cells that carries oxygen to the body’s tissues) that binds with glucose. HbA1c blood tests are commonly used to measure average blood sugar levels and diagnose diabetes. HbA1c levels are given as a percentage of hemoglobin proteins that are coated with sugar.</p></li>
 <li><p>Five Determinants of Health: Genetic, Biological, Behavioral, Psychological, and Societal/Environmental factors.</p></li>
 </ul>
-<p>Background</p>
+<p>Background:</p>
 <p>Diabetes is the fifth leading cause of death among Latino Americans. Almost 1 in 2 Latino adults are at risk of type 2 diabetes. Recent data from the CDC shows that diabetes rates are twice as high for Latinos of Mexican heritage compared with Whites. This excess burden of diabetes is due to complex, poorly-understood interactions between determinants of health. Some of these include economic challenges, cultural/language/health literacy barriers, pollution, etc. Many of these factors are beyond traditional biological factors; by learning more about these relationships we can identify interventions that can target diabetes outside of traditional clinical options.</p>
 </div>
 <div class="section" id="analysis-strategy">
@@ -554,7 +570,7 @@ psychology, behavior and societal/environmental influences</p></li>
 <tbody>
 <tr class="row-even"><td><p>0</p></td>
 <td><p>&lt;7%</p></td>
-<td><p>Low risk</p></td>
+<td><p>Low Risk</p></td>
 <td class="text-align:left"><p>No diabetes, pre-diabetes, or diabetics who are able to control their a1c levels with insulin</p></td>
 </tr>
 <tr class="row-odd"><td><p>1</p></td>
@@ -572,22 +588,17 @@ psychology, behavior and societal/environmental influences</p></li>
 <p>Through data visualizations and linear regressions, we attempted to discover a relationship between features and categorical HbA1c class or the numerical HbA1c level.</p>
 </div>
 <div class="section" id="exploratory-data-analysis">
-<h2>Exploratory Data Analysis<a class="headerlink" href="#exploratory-data-analysis" title="Permalink to this headline">¶</a></h2>
-<img src = "https://raw.githubusercontent.com/lawrencedlin/ucsb-ds-capstone-2021.github.io/main/ucsb_ds_capstone_projects_2021/projects/sansum/visuals/pca.png" width = 200px, height = 200px>
-<p>We projected the biological data into three-dimensions and plotted the color-coded points to see if we could identify any trends between the HbA1c classes. There were no clear patterns in this 3D plot.</p>
-<img src = "https://raw.githubusercontent.com/lawrencedlin/ucsb-ds-capstone-2021.github.io/main/ucsb_ds_capstone_projects_2021/projects/sansum/visuals/3-18-21%20Insulin%20Graphs%20Combined.png" width = 500px, height = 350px>
+<h2>Exploratory Data Analysis:<a class="headerlink" href="#exploratory-data-analysis" title="Permalink to this headline">¶</a></h2>
+<p><img alt="" src="projects/sansum/visuals/insulin2.png" /></p>
 <p>The histograms above compare the distribution of HbA1c levels of participants treated with Insulin during research and participants not treated during research. The vertical red bar indicates the point at which HbA1c = 7, giving a better view to the distribution of individuals with lower or higher values than 7. Surprisingly, the individuals not treated have lower HbA1c levels, having a skewed right distribution when compared to their treated counterparts. This could be due to the treated participants having a greater need for Insulin, or could be due to the lower number of participants being treated than not being treated.</p>
-<!-- #region id="YyJ3pMindCd4" -->
-<img src = "https://raw.githubusercontent.com/lawrencedlin/ucsb-ds-capstone-2021.github.io/main/ucsb_ds_capstone_projects_2021/projects/sansum/visuals/zipcode.png" width = 400px height = 300px>
+<p><img alt="" src="../../_images/zipcode.png" /></p>
 <p>We stratified the data set into three different tiers of HbA1c levels and plotted their distribution by zipcode. We found a higher proportion of high-risk individuals  in the 93101 and 93117 zip codes. A possible explanation could be the lower air quality in these zip codes.</p>
-<!-- #endregion -->
-<img class = "resize" src = "https://raw.githubusercontent.com/lawrencedlin/ucsb-ds-capstone-2021.github.io/main/ucsb_ds_capstone_projects_2021/projects/sansum/visuals/diagnosis.png" width = 500px, height = 300px>
+<p><img alt="" src="../../_images/diagnosis.png" /></p>
 <p>The scatter plots display the HbA1c levels of participants over the years based on year of diagnosis. The left plot displays participants treated for insulin during research, while the right plot displays the participants not treated for insulin during research. Both graphs have a solid red bar at the level HbA1c = 7, displaying the two groups used to categorize HbA1c so far in our research. As the years get closer to present day, there is a noticeable negative correlation between diagnosis and HbA1c for both graphs. While the treated group has a higher HbA1c levels for its slope, both groups seem to have a similar slope based on the angle of line depicted in each graph. When measuring the correlations for each group, the treated group had a correlation of -0.065, while the non-treated group had a correlation of -0.052. While separated, the two groups do not produce significant correlations, but when combined they produce a significant correlation with a value of -0.242.</p>
-<img src = "https://raw.githubusercontent.com/lawrencedlin/ucsb-ds-capstone-2021.github.io/main/ucsb_ds_capstone_projects_2021/projects/sansum/visuals/survey.png">
+<p><img alt="" src="../../_images/survey.png" /></p>
 <p>FACIT-Sp-12 stands for “Functional Assessment of Chronic Illness Therapy - Spiritual Well-Being 12 Item Scale”. There are three subscores when using the 3-Factor model: meaning, peace and faith. Higher scores imply better spiritual well being. These plots show the differences between the correlation and stratification of A1c in relation to both the FACIT-Sp-12 total score and subscores.
 These results were surprising to us because we expected a negative correlation between spiritual wellbeing and A1c if any, however the correlations between all scores were positive. It appears that most individuals had high faith scores, but that the meaning subscore actually increased a fair amount with A1c. This could possibly be because as the disease worsens, participants start to find ‘acceptance’ in the absence of initial shock.
 To explore this result more, we are planning to perform the same test when stratified by both diagnosis date and whether the participant was treated with insulin.</p>
-<!-- #region id="UpDEkszbantR" -->
 </div>
 <div class="section" id="summary">
 <h2>Summary<a class="headerlink" href="#summary" title="Permalink to this headline">¶</a></h2>
@@ -614,8 +625,6 @@ To explore this result more, we are planning to perform the same test when strat
 </ul>
 </li>
 </ul>
-<!-- #endregion -->
-<!-- #region id="RNC7vrIYantS" -->
 </div>
 <div class="section" id="hopes-for-the-future">
 <h2>Hopes for the future<a class="headerlink" href="#hopes-for-the-future" title="Permalink to this headline">¶</a></h2>
@@ -623,10 +632,6 @@ To explore this result more, we are planning to perform the same test when strat
 <li><p>Further analyzing questionnaires</p></li>
 <li><p>Prediction of HbA1c class</p></li>
 </ul>
-<!-- #endregion -->
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>
-</pre></div>
-</div>
 </div>
 </div>
 
