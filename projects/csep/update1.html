@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Update 1 &#8212; Data Science Capstone 2021</title>
     
-  <link rel="stylesheet" href="../../_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
+  <link href="../../_static/css/theme.css" rel="stylesheet" />
+  <link href="../../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
 
     
   <link rel="stylesheet"
@@ -19,14 +20,10 @@
 
     
       
-  <link rel="stylesheet"
-    href="../../_static/vendor/open-sans_all/1.44.1/index.css">
-  <link rel="stylesheet"
-    href="../../_static/vendor/lato_latin-ext/1.44.1/index.css">
 
     
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="../../_static/sphinx-book-theme.e7340bb3dbd8dde6db86f25597f54a1b.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
@@ -34,7 +31,7 @@
     <link rel="stylesheet" type="text/css" href="../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     
-  <link rel="preload" as="script" href="../../_static/js/index.d3f166471bb80abb5163.js">
+  <link rel="preload" as="script" href="../../_static/js/index.1c5a1a01449ed65a7b51.js">
 
     <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
@@ -44,7 +41,7 @@
     <script src="../../_static/clipboard.min.js"></script>
     <script src="../../_static/copybutton.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="../../_static/sphinx-book-theme.7d483ff0a819d6edff12ce0b1ead3928.js"></script>
+    <script src="../../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe"
@@ -54,16 +51,16 @@
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="evidation" href="../evidation/description.html" />
+    <link rel="next" title="Update 2" href="update2.html" />
     <link rel="prev" title="CSEP" href="description.html" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
-
-
-
+    
   </head>
   <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
     
 
     <div class="container-xl">
@@ -72,37 +69,42 @@
 <div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
     
         <div class="navbar-brand-box">
-<a class="navbar-brand text-wrap" href="../../index.html">
-  
-  <img src="../../_static/logo.png" class="logo" alt="logo">
-  
-  
-  <h1 class="site-logo" id="site-title">Data Science Capstone 2021</h1>
-  
-</a>
+    <a class="navbar-brand text-wrap" href="../../index.html">
+      
+      <img src="../../_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Data Science Capstone 2021</h1>
+      
+    </a>
 </div><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
-</form>
-<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
-    <ul class="nav sidenav_l1">
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../../welcome.html">
    Welcome to Data Science Capstone
   </a>
  </li>
 </ul>
-<p class="caption collapsible-parent">
+<p class="caption">
  <span class="caption-text">
   Class Logistics
  </span>
 </p>
-<ul class="nav sidenav_l1">
- <li class="toctree-l1 collapsible-parent">
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1 has-children">
   <a class="reference internal" href="../../class/syllabus.html">
    Course Syllabus
   </a>
-  <ul class="collapse-ul">
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
    <li class="toctree-l2">
     <a class="reference internal" href="../../class/syllabus_readings.html">
      Readings
@@ -119,194 +121,288 @@
     </a>
    </li>
   </ul>
-  <i class="fas fa-chevron-down">
-  </i>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../../class/contacts.html">
    Teams and Contacts
   </a>
  </li>
- <li class="toctree-l1 collapsible-parent">
+ <li class="toctree-l1 has-children">
   <a class="reference internal" href="../../class/software-tools.html">
    Software and Tools
   </a>
-  <ul class="collapse-ul">
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
    <li class="toctree-l2">
     <a class="reference internal" href="../../class/software-tools_create-update-pages.html">
      Create Project Update Pages
     </a>
    </li>
   </ul>
-  <i class="fas fa-chevron-down">
-  </i>
  </li>
 </ul>
-<p class="caption collapsible-parent">
+<p class="caption">
  <span class="caption-text">
   Projects
  </span>
 </p>
-<ul class="current nav sidenav_l1">
- <li class="toctree-l1 collapsible-parent">
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1 has-children">
   <a class="reference internal" href="../appfolio/description.html">
    appfolio
   </a>
-  <ul class="collapse-ul">
+  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+  <label for="toctree-checkbox-3">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
    <li class="toctree-l2">
     <a class="reference internal" href="../appfolio/update1.html">
      Update 1 - Project Updates
     </a>
    </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../appfolio/update2.html">
+     Update 2
+    </a>
+   </li>
   </ul>
-  <i class="fas fa-chevron-down">
-  </i>
  </li>
- <li class="toctree-l1 collapsible-parent">
+ <li class="toctree-l1 has-children">
   <a class="reference internal" href="../calcofi1/description.html">
    calcofi1
   </a>
-  <ul class="collapse-ul">
+  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
    <li class="toctree-l2">
     <a class="reference internal" href="../calcofi1/update1.html">
      Update 1
     </a>
    </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../calcofi1/update2.html">
+     Update 2
+    </a>
+   </li>
   </ul>
-  <i class="fas fa-chevron-down">
-  </i>
  </li>
- <li class="toctree-l1 collapsible-parent">
+ <li class="toctree-l1 has-children">
   <a class="reference internal" href="../calcofi2/description.html">
    calcofi2
   </a>
-  <ul class="collapse-ul">
+  <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
+  <label for="toctree-checkbox-5">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
    <li class="toctree-l2">
     <a class="reference internal" href="../calcofi2/update1.html">
      Update 1
     </a>
    </li>
-  </ul>
-  <i class="fas fa-chevron-down">
-  </i>
- </li>
- <li class="toctree-l1 collapsible-parent">
-  <a class="reference internal" href="../carpedata/description.html">
-   carpedata
-  </a>
-  <ul class="collapse-ul">
    <li class="toctree-l2">
-    <a class="reference internal" href="../carpedata/update1.html">
-     Update 1
+    <a class="reference internal" href="../calcofi2/update2.html">
+     Update 2
     </a>
    </li>
   </ul>
-  <i class="fas fa-chevron-down">
-  </i>
  </li>
- <li class="toctree-l1 collapsible-parent">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../carpedata/description.html">
+   carpedata
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
+  <label for="toctree-checkbox-6">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../carpedata/update1.html">
+     Update1
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../carpedata/update2.html">
+     Update 2
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
   <a class="reference internal" href="../ccber/description.html">
    ccber
   </a>
-  <ul class="collapse-ul">
+  <input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/>
+  <label for="toctree-checkbox-7">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
    <li class="toctree-l2">
     <a class="reference internal" href="../ccber/update1.html">
      Update 1
     </a>
    </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../ccber/update2.html">
+     Update 2
+    </a>
+   </li>
   </ul>
-  <i class="fas fa-chevron-down">
-  </i>
  </li>
- <li class="toctree-l1 current active collapsible-parent">
+ <li class="toctree-l1 current active has-children">
   <a class="reference internal" href="description.html">
    CSEP
   </a>
-  <ul class="current collapse-ul">
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/>
+  <label for="toctree-checkbox-8">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul class="current">
    <li class="toctree-l2 current active">
     <a class="current reference internal" href="#">
      Update 1
     </a>
    </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="update2.html">
+     Update 2
+    </a>
+   </li>
   </ul>
-  <i class="fas fa-chevron-down">
-  </i>
  </li>
- <li class="toctree-l1 collapsible-parent">
+ <li class="toctree-l1 has-children">
   <a class="reference internal" href="../evidation/description.html">
    evidation
   </a>
-  <ul class="collapse-ul">
+  <input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/>
+  <label for="toctree-checkbox-9">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
    <li class="toctree-l2">
     <a class="reference internal" href="../evidation/update1.html">
      Evidation Health Project Update 1
     </a>
    </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../evidation/update2.html">
+     Evidation Project Update 2 - February 21st
+    </a>
+   </li>
   </ul>
-  <i class="fas fa-chevron-down">
-  </i>
  </li>
- <li class="toctree-l1 collapsible-parent">
+ <li class="toctree-l1 has-children">
   <a class="reference internal" href="../flir/description.html">
    flir
   </a>
-  <ul class="collapse-ul">
+  <input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/>
+  <label for="toctree-checkbox-10">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
    <li class="toctree-l2">
     <a class="reference internal" href="../flir/update1.html">
      Update 1
     </a>
    </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../flir/update2.html">
+     Update 2
+    </a>
+   </li>
   </ul>
-  <i class="fas fa-chevron-down">
-  </i>
  </li>
- <li class="toctree-l1 collapsible-parent">
+ <li class="toctree-l1 has-children">
   <a class="reference internal" href="../invoca/description.html">
    invoca
   </a>
-  <ul class="collapse-ul">
+  <input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" type="checkbox"/>
+  <label for="toctree-checkbox-11">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
    <li class="toctree-l2">
     <a class="reference internal" href="../invoca/update1.html">
      Update 1
     </a>
    </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../invoca/update2.html">
+     Update 2
+    </a>
+   </li>
   </ul>
-  <i class="fas fa-chevron-down">
-  </i>
  </li>
- <li class="toctree-l1 collapsible-parent">
+ <li class="toctree-l1 has-children">
   <a class="reference internal" href="../nceas/description.html">
    nceas
   </a>
-  <ul class="collapse-ul">
+  <input class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" type="checkbox"/>
+  <label for="toctree-checkbox-12">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
    <li class="toctree-l2">
     <a class="reference internal" href="../nceas/update1.html">
      Update 1
     </a>
    </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../nceas/update2.html">
+     Update 2
+    </a>
+   </li>
   </ul>
-  <i class="fas fa-chevron-down">
-  </i>
  </li>
- <li class="toctree-l1 collapsible-parent">
+ <li class="toctree-l1 has-children">
   <a class="reference internal" href="../nri/description.html">
    nri
   </a>
-  <ul class="collapse-ul">
+  <input class="toctree-checkbox" id="toctree-checkbox-13" name="toctree-checkbox-13" type="checkbox"/>
+  <label for="toctree-checkbox-13">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
    <li class="toctree-l2">
     <a class="reference internal" href="../nri/update1.html">
      NRI - Update 1
     </a>
    </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../nri/update2.html">
+     NRI - Update 2
+    </a>
+   </li>
   </ul>
-  <i class="fas fa-chevron-down">
-  </i>
  </li>
- <li class="toctree-l1 collapsible-parent">
+ <li class="toctree-l1 has-children">
   <a class="reference internal" href="../sansum/description.html">
    sansum
   </a>
-  <ul class="collapse-ul">
+  <input class="toctree-checkbox" id="toctree-checkbox-14" name="toctree-checkbox-14" type="checkbox"/>
+  <label for="toctree-checkbox-14">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
    <li class="toctree-l2">
     <a class="reference internal" href="../sansum/update1.html">
      Update 1
@@ -318,11 +414,10 @@
     </a>
    </li>
   </ul>
-  <i class="fas fa-chevron-down">
-  </i>
  </li>
 </ul>
 
+    </div>
 </nav> <!-- To handle the deprecated key -->
 
 <div class="navbar_extra_footer">
@@ -390,12 +485,12 @@
     </div>
 </div>
 
-
             <!-- Full screen (wrap in <a> to have style consistency -->
-            <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-                    data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
-                    title="Fullscreen mode"><i
-                        class="fas fa-expand"></i></button></a>
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
 
             <!-- Launch buttons -->
 
@@ -404,12 +499,11 @@
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show">
             
-        <div class="tocsection onthispage pt-5 pb-3">
-            <i class="fas fa-list"></i>
-            Contents
-        </div>
-        <nav id="bd-toc-nav">
-            <ul class="nav section-nav flex-column">
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav">
+                <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#center-for-science-and-engineering-partnerships-csep-project">
    Center for Science and Engineering Partnerships (CSEP) Project
@@ -471,8 +565,7 @@
  </li>
 </ul>
 
-        </nav>
-        
+            </nav>
         </div>
     </div>
 </div>
@@ -551,7 +644,7 @@
 <p>The goal of this was to see if the number of engineering students obtaining a graduate degree has decreased over the years. A big reason for this has been engineers seem to pursue jobs in industry since its a readily available opportunity after obtaining a BS degree.</p>
 <div class="figure align-default" id="id1">
 <a class="reference internal image-reference" href="../../_images/engvsgrad.png"><img alt="../../_images/engvsgrad.png" src="../../_images/engvsgrad.png" style="width: 480.0px; height: 360.0px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 2 </span><span class="caption-text">In the plot, we can see the increasing number of students who obtain their Graduate degree.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 17 </span><span class="caption-text">In the plot, we can see the increasing number of students who obtain their Graduate degree.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
 <p>Some things to note is that the range of data is from 2000 to 2018 so many students are initially going to graduate school and there is a huge rise because of this. Another thing is that not all students immediately enter in a graduate program (i.e. some students take a gap year or work in industry first).</p>
 <p>We can see there exists a drop off in the beginning of the plot because there hasn’t been enough time for students to enter graduate school right away.</p>
@@ -563,23 +656,23 @@
 <h4>Socioeconomic Background of Freshmen Admits at UCSB by Major<a class="headerlink" href="#socioeconomic-background-of-freshmen-admits-at-ucsb-by-major" title="Permalink to this headline">¶</a></h4>
 <div class="figure align-default" id="id2">
 <a class="reference internal image-reference" href="../../_images/CS.png"><img alt="../../_images/CS.png" src="../../_images/CS.png" style="width: 608.4px; height: 468.0px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 3 </span><span class="caption-text">Socioeconomic Distribution of Students in Computer Science</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 18 </span><span class="caption-text">Socioeconomic Distribution of Students in Computer Science</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
 <div class="figure align-default" id="id3">
 <a class="reference internal image-reference" href="../../_images/Chicano_Studies.png"><img alt="../../_images/Chicano_Studies.png" src="../../_images/Chicano_Studies.png" style="width: 608.4px; height: 468.0px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 4 </span><span class="caption-text">Socioeconomic Distribution of Students in Chicano Studies</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 19 </span><span class="caption-text">Socioeconomic Distribution of Students in Chicano Studies</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
 </div>
 <div class="figure align-default" id="id4">
 <a class="reference internal image-reference" href="../../_images/Sociology.png"><img alt="../../_images/Sociology.png" src="../../_images/Sociology.png" style="width: 608.4px; height: 468.0px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 5 </span><span class="caption-text">Socioeconomic Distribution of Students in Sociology</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 20 </span><span class="caption-text">Socioeconomic Distribution of Students in Sociology</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
 </div>
 <div class="figure align-default" id="id5">
 <a class="reference internal image-reference" href="../../_images/Economics.png"><img alt="../../_images/Economics.png" src="../../_images/Economics.png" style="width: 608.4px; height: 468.0px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 6 </span><span class="caption-text">Socioeconomic Distribution of Students in Economics</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 21 </span><span class="caption-text">Socioeconomic Distribution of Students in Economics</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
 </div>
 <div class="figure align-default" id="id6">
 <a class="reference internal image-reference" href="../../_images/Biology.png"><img alt="../../_images/Biology.png" src="../../_images/Biology.png" style="width: 608.4px; height: 468.0px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 7 </span><span class="caption-text">Socioeconomic Distribution of Students in Biology</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 22 </span><span class="caption-text">Socioeconomic Distribution of Students in Biology</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
 </div>
 <p>When looking at these perliminary graphs we can see that majors in STEM feilds are disproportionately populated by studnets from affluent high schools. Currently, these graphs do not include students from out of state, international students or transfer students.</p>
 </div>
@@ -589,17 +682,17 @@
 <p>Many people believe that transferring to a 4 year college because of the amount of money saved. Others believe attending a 4 year university for the full 4 years is the way to go. Taking a quick glance at the data we can see some differences. First we see transfer students obtaining Minors and Bachelors of Science at a higher rate than Freshmen admits. Meanwhile, Freshmen Admits have a higher rate of receiving Bachelors of Art, Bachelors of Fine Arts, and Bachelors of Music.</p>
 <div class="figure align-default" id="id7">
 <a class="reference internal image-reference" href="../../_images/transfer_v_freshman_degree_type.png"><img alt="../../_images/transfer_v_freshman_degree_type.png" src="../../_images/transfer_v_freshman_degree_type.png" style="width: 582.5px; height: 287.5px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 8 </span><span class="caption-text">Degree Type Rate: Freshman vs Transfer</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 23 </span><span class="caption-text">Degree Type Rate: Freshman vs Transfer</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
 </div>
 <p>Also, there appears to be differences in degree types. The biggest being Transfers tend to have a higher rate of biology majors.</p>
 <div class="figure align-default" id="id8">
 <a class="reference internal image-reference" href="../../_images/trasnfer_v_freshman_field.png"><img alt="../../_images/trasnfer_v_freshman_field.png" src="../../_images/trasnfer_v_freshman_field.png" style="width: 684.5px; height: 1374.5px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 9 </span><span class="caption-text">Major Rate: Freshman vs Transfer</span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 24 </span><span class="caption-text">Major Rate: Freshman vs Transfer</span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
 </div>
 <p>Finally, Freshmen admits also seem to work more in similar institutions with their peers.</p>
 <div class="figure align-default" id="id9">
 <a class="reference internal image-reference" href="../../_images/transfer_v_freshman_institutions.png"><img alt="../../_images/transfer_v_freshman_institutions.png" src="../../_images/transfer_v_freshman_institutions.png" style="width: 666.0px; height: 287.5px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 10 </span><span class="caption-text">Institutions: Freshman vs Transfer</span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 25 </span><span class="caption-text">Institutions: Freshman vs Transfer</span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 <div class="section" id="software-used">
@@ -639,7 +732,7 @@
         <div class='prev-next-bottom'>
             
     <a class='left-prev' id="prev-link" href="description.html" title="previous page">CSEP</a>
-    <a class='right-next' id="next-link" href="../evidation/description.html" title="next page">evidation</a>
+    <a class='right-next' id="next-link" href="update2.html" title="next page">Update 2</a>
 
         </div>
         
@@ -660,21 +753,19 @@
 
       </div>
     </div>
+  
+  <script src="../../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
 
-    
-  <script src="../../_static/js/index.d3f166471bb80abb5163.js"></script>
+  
+<script async="" src="https://www.google-analytics.com/analytics.js"></script>
+<script>
+                        window.ga = window.ga || function () {
+                            (ga.q = ga.q || []).push(arguments) };
+                        ga.l = +new Date;
+                        ga('create', 'UA-186739861-1', 'auto');
+                        ga('set', 'anonymizeIp', true);
+                        ga('send', 'pageview');
+                    </script>
 
-
-    
-    <!-- Google Analytics -->
-    <script>
-      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', 'UA-186739861-1', 'auto');
-      ga('set', 'anonymizeIp', true);
-      ga('send', 'pageview');
-    </script>
-    <script async src='https://www.google-analytics.com/analytics.js'></script>
-    <!-- End Google Analytics -->
-    
   </body>
 </html>
