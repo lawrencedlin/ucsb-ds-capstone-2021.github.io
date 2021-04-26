@@ -632,14 +632,9 @@ psychology, behavior and societal/environmental influences</p></li>
 <span class="s2">&quot;BASH Score&quot;</span><span class="p">,</span> <span class="s2">&quot;WC (in)&quot;</span><span class="p">,</span> <span class="s2">&quot;Height (in)&quot;</span><span class="p">,</span> <span class="s2">&quot;Weight (lbs)&quot;</span><span class="p">,</span> <span class="s2">&quot;Pulse&quot;</span><span class="p">,</span> <span class="s2">&quot;Heart Failure&quot;</span><span class="p">,</span> <span class="s2">&quot;SEX/GENDER&quot;</span><span class="p">,</span> <span class="s2">&quot;AGE&quot;</span><span class="p">]</span>
 </pre></div>
 </div>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pickle</span>
-<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;../data/processed/ols.pickle&quot;</span><span class="p">,</span><span class="s2">&quot;rb&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">read_file</span><span class="p">:</span>
-     <span class="n">results</span> <span class="o">=</span> <span class="n">pickle</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">read_file</span><span class="p">)</span>
-</pre></div>
-</div>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">results</span>
-</pre></div>
-</div>
+<!-- #region tags=["remove-input"] -->
+<p><img alt="" src="projects/sansum/visuals/linreg.png" /></p>
+<!-- #endregion -->
 <p>Here we can see that the model is not significant, as shown by the F-statistic and the negative adjusted R-squared. However, we can see that the pulse variable (x16) at least appears to have a stronger affect on hemoglobin a1c.</p>
 </div>
 <div class="section" id="plans-for-the-future">
