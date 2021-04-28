@@ -109,7 +109,7 @@ variables = ["PSS-4 Score", "ACE Score", "PEDQ Score", "PHQ-9 Score", "FACIT Sco
 ```
 
 <!-- #region tags=["remove-input"] -->
-![](./visuals/linreg.png)
+![](./visuals/linreg.PNG)
 <!-- #endregion -->
 
 Here we can see that the model is not significant, as shown by the F-statistic and the negative adjusted R-squared. However, we can see that the pulse variable (x16) at least appears to have a stronger affect on hemoglobin a1c.
